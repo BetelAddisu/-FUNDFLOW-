@@ -1,0 +1,47 @@
+{
+  "$note": "Demo fixtures. transcriptOverride is used ONLY for these explicitly listed demo audio clips so the hackathon can run without paid STT. Arbitrary uploaded audio is processed by configured providers and, if they fail, marked unresolved — never fabricated.",
+  "samples": [
+    {
+      "id": "demo_voice_license",
+      "label": "Business-owner voice note (Amharic)",
+      "durationSeconds": 14,
+      "language": "am",
+      "transcript": "ኩባንያችን አልፋ ፉድስ ኢንተርፕራይዝ ይባላል። ከ2019 ጀምሮ እየሰራን ነው። በ2023 ሽያጭ 8 ሚሊዮን ብር ነበር፣ በ2024 ደግሞ 12 ሚሊዮን ነበር።"
+    },
+    {
+      "id": "demo_voice_employees",
+      "label": "Employment numbers (English)",
+      "durationSeconds": 9,
+      "language": "en",
+      "transcript": "We have about 25 total employees, and 12 of them are women."
+    },
+    {
+      "id": "demo_voice_youth",
+      "label": "Youth employment (English)",
+      "durationSeconds": 6,
+      "language": "en",
+      "transcript": "Around 10 of our employees are between 18 and 24 years old."
+    },
+    {
+      "id": "demo_voice_jobs",
+      "label": "Job creation projection (English)",
+      "durationSeconds": 7,
+      "language": "en",
+      "transcript": "We plan to create 35 new jobs with the new machinery."
+    },
+    {
+      "id": "demo_voice_market",
+      "label": "Market and uniqueness (English)",
+      "durationSeconds": 11,
+      "language": "en",
+      "transcript": "We sell to local markets but we are also starting to export. Our products are different from competitors because we are the first to use this packaging machine in Ethiopia."
+    },
+    {
+      "id": "demo_voice_om",
+      "label": "Afaan Oromo greeting/purpose",
+      "durationSeconds": 8,
+      "language": "om",
+      "transcript": "Akkam. Maqaan dhaabbata kootii Beta Textiles PLC. Daldalli keenya uffata oomishuu fi gurguruu dha."
+    }
+  ]
+}

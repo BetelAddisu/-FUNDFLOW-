@@ -1,0 +1,45 @@
+{
+  "$note": "Demo photo fixtures. documentExtractions are bound ONLY to these explicitly listed demo images so the hackathon can demonstrate document-supported evidence without paid vision. Any other uploaded image is analyzed by configured providers and, if unreadable, stays not_established.",
+  "samples": [
+    {
+      "id": "demo_license_alpha",
+      "label": "Alpha Foods business license",
+      "documentKind": "business_license",
+      "extractions": [
+        { "field": "company_profile.business_registration_number", "value": "REG-ALPHA-2021" },
+        { "field": "company_profile.company_name", "value": "Alpha Foods Enterprise" }
+      ]
+    },
+    {
+      "id": "demo_license_beta",
+      "label": "Beta Textiles business license",
+      "documentKind": "business_license",
+      "extractions": [
+        { "field": "company_profile.business_registration_number", "value": "REG-BETA-2019" },
+        { "field": "company_profile.company_name", "value": "Beta Textiles PLC" }
+      ]
+    },
+    {
+      "id": "demo_license_green",
+      "label": "GreenTech energy business license",
+      "documentKind": "business_license",
+      "extractions": [
+        { "field": "company_profile.business_registration_number", "value": "REG-GREEN-2018" },
+        { "field": "company_profile.company_name", "value": "GreenTech Energy Solutions" }
+      ]
+    },
+    {
+      "id": "demo_workshop_alpha",
+      "label": "Alpha Foods workshop photo",
+      "documentKind": "workshop",
+      "extractions": []
+    },
+    {
+      "id": "demo_unreadable",
+      "label": "Unreadable document",
+      "documentKind": "business_license",
+      "extractions": [],
+      "unreadable": true
+    }
+  ]
+}

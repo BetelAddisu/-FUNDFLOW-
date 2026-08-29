@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "official-v1-partial",
+  "description": "Only officially supplied criteria from the challenge source. Pending values remain pending - never guessed.",
+  "grid": {
+    "totalMax": 100,
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Success story",
+        "maxScore": 10,
+        "status": "confirmed",
+        "components": [
+          {
+            "id": "C1a",
+            "name": "Sales growth",
+            "maxScore": 5,
+            "bands": [
+              { "band": ">50%", "score": 5 },
+              { "band": "25-50%", "score": 3 },
+              { "band": "0-24%", "score": 0 }
+            ],
+            "notes": "The supplied grid omits a band between <24% and 25-50%. Values in the undocumented 24-25% zone resolve to needs_review."
+          },
+          {
+            "id": "C1b",
+            "name": "Employment growth",
+            "maxScore": 5,
+            "bands": [
+              { "band": ">20", "score": 5 },
+              { "band": "11-20", "score": 3 },
+              { "band": "6-10", "score": 1 },
+              { "band": "0-5", "score": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "name": "Uniqueness / USP",
+        "maxScore": 5,
+        "status": "confirmed",
+        "bands": [
+          { "band": "New product/service in Ethiopia", "score": 5 },
+          { "band": "Not new but different from competitors", "score": 3 },
+          { "band": "Essential product to Ethiopia", "score": 2 },
+          { "band": "No unique features", "score": 1 }
+        ]
+      },
+      {
+        "id": "C3",
+        "name": "Market served",
+        "maxScore": 5,
+        "status": "confirmed",
+        "bands": [
+          { "band": "Reachable to international market", "score": 5 },
+          { "band": "Import-substituting product/service", "score": 3 },
+          { "band": "Local market only", "score": 2 }
+        ]
+      },
+      {
+        "id": "C4",
+        "name": "Supply chain (local sourcing)",
+        "maxScore": 5,
+        "status": "confirmed",
+        "bands": [
+          { "band": ">=75% local sourcing", "score": 5 },
+          { "band": "40-74%", "score": 3 },
+          { "band": "20-39%", "score": 1 },
+          { "band": "<20%", "score": 0 }
+        ],
+        "notes": "If sourcing is not applicable / not established, the criterion must not be scored as 0 by assumption."
+      },
+      {
+        "id": "C5",
+        "name": "Ownership and demography",
+        "maxScore": 15,
+        "status": "confirmed",
+        "components": [
+          {
+            "id": "C5.1",
+            "name": "Ownership/management",
+            "maxScore": 5,
+            "bands": [
+              { "band": "Women owned, partly or fully", "score": 5 },
+              { "band": "Not women-owned but women-managed", "score": 3 },
+              { "band": "Neither", "score": 0 }
+            ]
+          },
+          {
+            "id": "C5.2",
+            "name": "Women employees",
+            "maxScore": 5,
+            "bands": [
+              { "band": ">50%", "score": 5 },
+              { "band": "41-50%", "score": 4 },
+              { "band": "30-40%", "score": 3 },
+              { "band": "1-29%", "score": 2 },
+              { "band": "0%", "score": 0 }
+            ]
+          },
+          {
+            "id": "C5.3",
+            "name": "Youth employees",
+            "maxScore": 5,
+            "bands": [
+              { "band": ">50%", "score": 5 },
+              { "band": "41-50%", "score": 4 },
+              { "band": "30-40%", "score": 3 },
+              { "band": "1-29%", "score": 2 },
+              { "band": "0%", "score": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "name": "Expected result",
+        "maxScore": 20,
+        "status": "confirmed",
+        "bands": [
+          { "band": "3 expected results achieved", "score": 20 },
+          { "band": "2 expected results achieved", "score": 15 },
+          { "band": "1 expected result achieved", "score": 10 }
+        ],
+        "notes": "No documented band for zero or unresolved expected results. Those resolve to needs_review."
+      },
+      {
+        "id": "C7",
+        "name": "Job creation potential",
+        "maxScore": 25,
+        "status": "pending_routing",
+        "variants": [
+          {
+            "id": "C7a",
+            "name": "Employability",
+            "maxScore": 25,
+            "bands": [
+              { "band": ">400 jobs", "score": 25 },
+              { "band": "300-399 jobs", "score": 20 },
+              { "band": "200-299 jobs", "score": 15 }
+            ],
+            "notes": "No lower band is documented in the supplied grid. Below 200 jobs resolves to needs_review."
+          },
+          {
+            "id": "C7b",
+            "name": "Investment readiness",
+            "maxScore": 25,
+            "bands": [
+              { "band": ">=25", "score": 25 },
+              { "band": "20-24", "score": 15 },
+              { "band": "15-19", "score": 5 }
+            ],
+            "notes": "No documented band below 15. Those resolve to needs_review."
+          }
+        ],
+        "notes": "The official routing rule between C7a and C7b is not documented. Both variants are computed and displayed; the routing decision stays pending."
+      },
+      {
+        "id": "C8",
+        "name": "Management capacity",
+        "maxScore": 5,
+        "status": "confirmed",
+        "bands": [
+          { "band": "4+ core management members", "score": 5 },
+          { "band": "3 members", "score": 3 },
+          { "band": "2 members", "score": 0 }
+        ],
+        "notes": "No documented band for 0 or 1 members. Counts below 2 and above bands must not be guessed."
+      },
+      {
+        "id": "C9",
+        "name": "Positive social/environmental impact",
+        "maxScore": 10,
+        "status": "confirmed",
+        "bands": [
+          { "band": "Green business model", "score": 10 },
+          { "band": "Both positive social and environmental impact", "score": 8 },
+          { "band": "Either social or environmental impact", "score": 5 },
+          { "band": "Neither", "score": 0 }
+        ],
+        "greenModelExamples": [
+          "renewable energy",
+          "efficient construction",
+          "EV / electric mobility",
+          "organic/sustainable agriculture or fisheries",
+          "sustainable forestry",
+          "recycling",
+          "water/energy-saving technology",
+          "eco-tourism"
+        ],
+        "notes": "Green-model examples are reference knowledge only; they must not automatically classify a business without evidence."
+      }
+    ]
+  },
+  "eligibility": {
+    "version": "official-v1-partial",
+    "requirements": [
+      {
+        "id": "E1",
+        "name": "Legal registration",
+        "status": "confirmed",
+        "rule": "Applicant must be legally registered."
+      },
+      {
+        "id": "E2",
+        "name": "Company age",
+        "status": "confirmed",
+        "rule": "SME or parent organization must be more than two years old."
+      },
+      {
+        "id": "E3",
+        "name": "Private ownership",
+        "status": "pending",
+        "rule": "Ownership requirement supplied by source (privately owned, not state-owned).",
+        "notes": "The exact third exclusion factor wording from the official challenge material remains pending if not yet supplied."
+      },
+      {
+        "id": "E4",
+        "name": "Exclusion factors",
+        "status": "pending",
+        "rule": "If the business is state-owned it must be excluded.",
+        "notes": "Confirmed exclusions may be expanded by official material. Unresolved exclusion factors must never silently disappear."
+      }
+    ]
+  },
+  "pending": [
+    "third exclusion factor (E3/E4)",
+    "official declaration text",
+    "C7a/C7b routing rule",
+    "C1 sales-growth band between <24% and 25-50%",
+    "C6 zero/unresolved expected results band",
+    "C8 bands for 0-1 management members",
+    "C7a band below 200 jobs",
+    "C7b band below 15"
+  ]
+}

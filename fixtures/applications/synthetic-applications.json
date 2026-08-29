@@ -1,0 +1,246 @@
+{
+  "$note": "Synthetic, labeled demo applications. Each captures the evidence story of a realistic Ethiopian SME applicant. Uses the canonical application shape.",
+  "applications": [
+    {
+      "id": "app_seed_alpha_foods",
+      "label": "Alpha Foods Enterprise",
+      "channel": "web",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Strong food-processing MSE: women-owned, growing sales, local sourcing. User sent data via text.",
+      "shots": [
+        "Our company is Alpha Foods Enterprise, a food processing company.",
+        "We have been operating since 2019 and we are 100% women-owned.",
+        "Last year (2024) our sales were 12 million birr; in 2023 they were 8 million.",
+        "We have 25 employees; 12 of them are women and 10 are youth between 18 and 24.",
+        "We buy 90% of our raw materials locally.",
+        "We plan to create 35 new jobs.",
+        "We also reduce waste by recycling by-products into animal feed, which helps the environment and creates community jobs."
+      ],
+      "reviewerDecisions": { "c7Route": "C7a", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_beta_textiles",
+      "label": "Beta Textiles PLC",
+      "channel": "telegram",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Medium textile company. Employment over 10 → C7b routing. Mixed market (local + export).",
+      "shots": [
+        "Our name is Beta Textiles PLC, we manufacture garments and fabrics.",
+        "We started in 2019 and are owned 60% by women.",
+        "In 2023 we had 130 employees; in 2024 we employ 145 people, 80 of them women.",
+        "2023 sales were 19 million birr, and in 2024 sales reached 26 million.",
+        "Our registration number is REG-BTX-2019-442.",
+        "We sell mostly locally but we export some to the region.",
+        "We differentiate ourselves with in-house design and we use imported equipment.",
+        "We expect to add 60 jobs next year.",
+        "Our production also supports decent work: we provide safety and health training to all staff.",
+        "We have 40 workers aged between 18 and 24.",
+        "We purchase 70% of our cotton and fabric locally.",
+        "Expected results: expand export capacity, train 30 new seamstresses, and reduce fabric waste by 20%.",
+        "Core management team: Sara Tesfaye as General Manager, Hanna Bekele as Finance Lead, and Dawit Girma as Production Manager.",
+        "Our investment readiness score is 26 out of 30."
+      ],
+      "reviewerDecisions": { "c7Route": "C7b", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_green_energy",
+      "label": "GreenTech Energy Solutions",
+      "channel": "web",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Solar distribution company with strong SDG1/7/13 overlap. High local sourcing.",
+      "shots": [
+        "We are GreenTech Energy Solutions; we distribute and install solar panels.",
+        "Founded in 2018, owned 100% by two male founders.",
+        "2023 revenue was 5.5 million birr; 2024 revenue was 9 million birr.",
+        "We have 18 employees, 4 women; 6 are youth aged under 25.",
+        "About 85% of components come from local suppliers.",
+        "We will create 12 new jobs when the warehouse expands.",
+        "Our products replace diesel generators, cutting emissions and giving rural households reliable power."
+      ],
+      "reviewerDecisions": { "c7Route": "C7a", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_roza_handicrafts",
+      "label": "Roza Handicrafts Cooperative",
+      "channel": "telegram",
+      "language": "am",
+      "status": "in_progress",
+      "scenario": "Women's handicraft cooperative, local market, moderate sales.",
+      "shots": [
+        "ስማችን ሮዛ ሃንድክራፍት ኮኦፕሬቲቭ ነው። በእጅ የተሰሩ ጌጣጌጦች እንሰራለን።",
+        "ከ2016 ጀምረን እየሰራን ነው። 100% በሴቶች የተያዘ ነው።",
+        "2023 ሽያጭ 2 ሚሊዮን ነበር፣ 2024 ሽያጭ 2.8 ሚሊዮን ነበር።",
+        "9 ሰራተኞች አሉን፣ ሁሉም ሴቶች ናቸው።",
+        "ጥሬ ዕቃዎቻችንን በሙሉ ከአካባቢው ገበያ እንገዛለን።",
+        "4 አዳዲስ ስራዎች ለመፍጠር እናቅዳለን።",
+        "ሴቶችን በማብቃት እና ባህላዊ ቅርሶችን በማስተዋወቅ ላይ እንሰራለን።"
+      ],
+      "reviewerDecisions": { "c7Route": "C7a", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_dagim_import",
+      "label": "Dagim Import & Trade",
+      "channel": "telegram",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Import/trading company. Older. Mixed ownership. Higher turnover, lower impact.",
+      "shots": [
+        "Our company is Dagim Import and Trade, we import spare parts and sell wholesale.",
+        "We have been operating for 12 years, since 2014.",
+        "Ownership is 50% women and 50% men.",
+        "Sales: 2023 = 45 million, 2024 = 52 million birr.",
+        "In 2023 we had 35 employees; in 2024 we employ 40 people; 8 are women, 5 are youth.",
+        "Our registration number is TD/DG-2014-0931.",
+        "We import 100% of our products (no local sourcing).",
+        "We do not plan to create additional jobs this year.",
+        "We support the local economy by providing parts that keep vehicles running.",
+        "Expected results: serve 3 new regions, stock more spare-part lines, and improve warehouse turnaround by 15%.",
+        "Core management team: Dagim Tadesse as Managing Director, Meron Haile as Operations Manager, and Chala Bekele as Warehouse Supervisor.",
+        "We differentiate ourselves with a nationwide spare-parts distribution network no competitor has.",
+        "Our investment readiness score is 22 out of 30."
+      ],
+      "reviewerDecisions": { "c7Route": "C7b", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_solar_fix",
+      "label": "SolarFix Repair Services",
+      "channel": "web",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Small repair service. Missing data: no ownership, no job creation numbers. Gaps visible.",
+      "shots": [
+        "Hello, we are SolarFix, we repair solar panels and inverters in Addis Ababa.",
+        "We started working in 2021.",
+        "In 2024 our revenue was 1.5 million birr.",
+        "We have 6 employees.",
+        "We serve households and small businesses in our neighborhood.",
+        "We want to grow and serve more customers."
+      ],
+      "reviewerDecisions": {}
+    },
+    {
+      "id": "app_seed_kebede_farm",
+      "label": "Kebede Family Farm PLC",
+      "channel": "web",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Agriculture/poultry. Contradiction present: sales 2024 stated as 3 million then 9 million.",
+      "shots": [
+        "Kebede Family Farm PLC is a poultry farm outside Addis.",
+        "Started in 2011; family-owned.",
+        "In 2024 our sales were 3 million birr.",
+        "Wait — I mean 9 million birr in 2024 sales.",
+        "We have 30 employees, 10 of them women.",
+        "We source 70% of feed locally.",
+        "We want to create 15 new jobs."
+      ],
+      "reviewerDecisions": {}
+    },
+    {
+      "id": "app_seed_selam_logistics",
+      "label": "Selam Logistics Services",
+      "channel": "telegram",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Service company with strong recent growth and job ambitions.",
+      "shots": [
+        "Selam Logistics runs a small fleet of trucks in Addis.",
+        "Founded in 2020.",
+        "2023 sales: 4 million; 2024 sales: 6.5 million.",
+        "In 2023 we had 17 employees; in 2024 we have 22 employees and 3 women drivers.",
+        "7 of our staff are aged 18-24.",
+        "Our registration number is REG-SLM-2020-112.",
+        "The company is owned 60% by women and 40% by men.",
+        "We buy 90% of our fuel and maintenance locally.",
+        "We plan to create 20 jobs and expand our fleet with the loan.",
+        "Better logistics reduces road congestion and supports local factories.",
+        "Expected results: add 5 delivery routes, reduce vehicle idle time 20%, and open one regional depot.",
+        "Core management team: Selam Bekele as General Manager, Tesfaye Alemu as Fleet Manager, and Hanna Girma as Depot Manager.",
+        "We are the only logistics firm offering overnight cold-chain delivery in Addis.",
+        "Our investment readiness score is 24 out of 30."
+      ],
+      "reviewerDecisions": { "c7Route": "C7b", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_tekle_metal",
+      "label": "Tekle Metal Works",
+      "channel": "web",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Metal fabrication, manufacturing, few details on uniqueness.",
+      "shots": [
+        "Tekle Metal Works produces metal doors and window frames.",
+        "We began in 2017; one owner.",
+        "2024 sales: 7 million birr.",
+        "We have 15 employees, 2 women.",
+        "Our products are essential for construction in Addis.",
+        "We plan to hire 10 more workers."
+      ],
+      "reviewerDecisions": { "c7Route": "C7a", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_hanna_beauty",
+      "label": "Hanna Beauty & Hair",
+      "channel": "telegram",
+      "language": "am",
+      "status": "in_progress",
+      "scenario": "Small service MSE, women-owned, low revenue, wants startup support.",
+      "shots": [
+        "የእኔ ስራ ሃና ቢውቲ ሳሎን ነው፣ በፒያሳ አካባቢ።",
+        "ከ2021 ጀምሬ ነው የምሰራው። 100% የራሴ ነው።",
+        "2024 ገቢዬ 600 ሺህ ብር ነበር።",
+        "3 ሰራተኞች አሉኝ፣ ሁሉም ሴቶች።",
+        "መሳሪያዎቼን ከአካባቢ ገበያ እገዛለሁ።",
+        "2 ተጨማሪ ሰራተኞች መቅጠር እፈልጋለሁ።",
+        "ሙያ ለወጣት ሴቶች በማስተማር የበኩሌን አስተዋጽኦ አደርጋለሁ።"
+      ],
+      "reviewerDecisions": { "c7Route": "C7a", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_abay_ceramic",
+      "label": "Abay Ceramics Manufacturing",
+      "channel": "web",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Manufacturing, import-substituting, high capital need.",
+      "shots": [
+        "Abay Ceramics makes tiles and sanitary ware.",
+        "We have operated for 8 years (since 2018).",
+        "Owners are two brothers (men). The company is owned 0% by women and 100% by men.",
+        "Our registration number is REG-ABY-2018-077.",
+        "2023 sales: 14 million; 2024 sales: 18 million birr.",
+        "In 2023 we had 130 employees; in 2024 we have 150 employees, 22 women, 60 youth.",
+        "Our tiles replaced imports from abroad — we are one of three producers in Ethiopia.",
+        "We plan to create 40 jobs and build a new kiln.",
+        "We use local clay and recycle production water; we source 85% of our raw materials locally.",
+        "We are the first Ethiopian producer to make sanitary ware with local clay — it is new to Ethiopia.",
+        "Expected results: build a new kiln, raise annual output by 30%, and certify quality standards.",
+        "Core management team: Abay Wondimu as General Manager, Lemlem Assefa as Finance Head, and Girma Belete as Plant Manager.",
+        "Our investment readiness score is 28 out of 30."
+      ],
+      "reviewerDecisions": { "c7Route": "C7b", "decidedBy": "reviewer-demo" }
+    },
+    {
+      "id": "app_seed_meron_accessories",
+      "label": "Meron Leather Accessories",
+      "channel": "telegram",
+      "language": "en",
+      "status": "in_progress",
+      "scenario": "Young leather goods business, lean. Notable: contradicting job projection (10 vs 25).",
+      "shots": [
+        "Meron Leather makes bags and belts from Ethiopian leather.",
+        "Started in 2022; 100% women-owned.",
+        "2023 sales 0.9M, 2024 sales 1.4M birr.",
+        "5 employees, all women.",
+        "We buy 95% of our leather locally.",
+        "We plan to create 10 new jobs; actually we expect to create 25 new jobs this year.",
+        "Expected results: take on 2 large retail orders and open a second workshop.",
+        "We train young women on leather craft."
+      ],
+      "reviewerDecisions": {}
+    }
+  ]
+}
