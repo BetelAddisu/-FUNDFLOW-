@@ -9,7 +9,7 @@ export class AddisVoiceProvider implements VoiceProvider {
 
     const formData = new FormData();
     formData.append('file', new Blob([new Uint8Array(audio)], { type: 'audio/wav' }), 'audio.wav');
-    formData.append('language', language || 'am'); // default Amharic
+    formData.append('language', language || 'am');
 
     const response = await fetch('https://api.addis.ai/v1/transcribe', {
       method: 'POST',
@@ -30,7 +30,7 @@ export class AddisVoiceProvider implements VoiceProvider {
     return {
       text,
       provider: this.name,
-      latencyMs: 0, // filled by caller
+      latencyMs: 0,
     };
   }
 }

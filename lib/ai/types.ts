@@ -11,7 +11,7 @@ export interface ReasoningResult {
 }
 
 export type VoiceProviderName = 'addis' | 'google' | 'whisper';
-export type ReasoningProviderName = 'primary' | 'groq' | 'openrouter' | 'primaryBackup';
+export type ReasoningProviderName = 'primary' | 'openrouter' | 'groq' | 'primaryBackup';
 
 export interface VoiceProvider {
   name: VoiceProviderName;

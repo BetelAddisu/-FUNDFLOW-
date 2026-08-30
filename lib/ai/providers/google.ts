@@ -7,7 +7,6 @@ export class GoogleVoiceProvider implements VoiceProvider {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) throw new Error('GEMINI_API_KEY is not set');
 
-    // Convert audio to base64
     const audioBase64 = audio.toString('base64');
     const prompt = language
       ? `Transcribe the following audio in ${language}. Return only the transcription text.`
