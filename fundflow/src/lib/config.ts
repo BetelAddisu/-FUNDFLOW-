@@ -1,0 +1,1 @@
+export { loadOfficialCriteria, getOfficialCriteria, resetCriteriaCache } from '@/config';
